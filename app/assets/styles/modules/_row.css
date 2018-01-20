@@ -4,7 +4,12 @@
 &--gutters{
     margin-right:-65px;
 }
-
+&--gutters-large{
+    margin-right:-100px;
+}
+&--gutters-large>div{
+    padding-right:100px;
+}
 &--gutters > div{
 padding-right: 65px;
 }
@@ -17,6 +22,11 @@ padding-right: 65px;
         &--medium-4--larger{
             width:37%;
             }
+
+        &--medium-6{
+            float:left;
+            width:50%;
+        }
         &--medium-8{
             float: left;
             width:66.66%;
